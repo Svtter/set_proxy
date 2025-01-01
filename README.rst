@@ -30,6 +30,15 @@ set_proxy
     # 清除代理
     set_proxy(None)
 
+    # 检查 Google 连接状态
+    from set_proxy import check_google
+
+    # 默认检查 https://www.google.com
+    check_google()
+
+    # 或者指定自定义 URL
+    check_google("https://www.google.com/search")
+
 贡献
 ----
 
