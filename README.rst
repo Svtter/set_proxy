@@ -1,6 +1,26 @@
 set_proxy
 =========
 
+.. image:: https://img.shields.io/pypi/v/set-proxy.svg
+   :target: https://pypi.org/project/set-proxy/
+   :alt: PyPI version
+
+.. image:: https://img.shields.io/pypi/dm/set-proxy.svg
+   :target: https://pypi.org/project/set-proxy/
+   :alt: PyPI downloads
+
+.. image:: https://img.shields.io/github/license/svtter/set-proxy.svg
+   :target: https://github.com/xiuhao/set-proxy/blob/main/LICENSE
+   :alt: License
+
+.. image:: https://img.shields.io/pypi/pyversions/set-proxy.svg
+   :target: https://pypi.org/project/set-proxy/
+   :alt: Python versions
+
+.. image:: https://github.com/xiuhao/set-proxy/workflows/CI/badge.svg
+   :target: https://github.com/xiuhao/set-proxy/actions
+   :alt: CI Status
+
 一个简单的 Python 工具，用于设置和管理系统代理。
 
 功能特点
