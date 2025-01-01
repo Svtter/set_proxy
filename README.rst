@@ -35,6 +35,42 @@ set_proxy
 
 欢迎提交 Issue 和 Pull Request！
 
+发布流程
+--------
+
+本项目使用 GitHub Actions 自动发布到 PyPI。发布新版本的步骤如下：
+
+1. 更新版本号（在 pyproject.toml 中手动修改版本号）：
+
+   .. code-block:: toml
+
+       [project]
+       name = "set-proxy"
+       version = "0.1.0"  # 修改这里的版本号
+       # ...
+
+2. 提交更改：
+
+   .. code-block:: bash
+
+       git add pyproject.toml
+       git commit -m "bump: 版本更新到 0.1.0"
+
+3. 创建标签：
+
+   .. code-block:: bash
+
+       git tag v0.1.0  # 使用对应的版本号
+
+4. 推送更改和标签：
+
+   .. code-block:: bash
+
+       git push
+       git push --tags
+
+推送标签后，GitHub Actions 将自动构建并发布包到 PyPI。
+
 许可证
 ------
 
