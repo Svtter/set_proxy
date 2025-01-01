@@ -1,5 +1,7 @@
 import os
 
+__version__ = "0.1.1"
+
 
 def set_socks(port=20170):
   os.environ["http_proxy"] = f"socks5://127.0.0.1:{port}"
