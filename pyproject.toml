@@ -24,3 +24,8 @@ indent-width = 2
 [tool.pdm.version]
 source = "file"
 path = "src/set_proxy/__init__.py"
+
+[dependency-groups]
+dev = [
+    "ruff>=0.9.2",
+]
