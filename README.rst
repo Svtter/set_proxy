@@ -29,6 +29,7 @@ set_proxy
 - 快速设置系统代理
 - 支持 HTTP 和 HTTPS 代理
 - 跨平台支持（Windows、macOS、Linux）
+- 支持检查实时网络速度
 
 安装
 ----
